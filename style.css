@@ -82,6 +82,7 @@ header {
   height: 15px;
   background-color: #221f1f;
   vertical-align: center;
+  padding-bottom: 80px;
 }
 
 .nav-container .header-item .contact {
@@ -111,15 +112,15 @@ header {
 .hamburger::before {
   content: "";
   display: block;
-  width: 70px;
-  height: 10px;
+  width: 69px;
+  height: 5px;
   background-color: #000000;
-  margin: 20px, 20px;
   transition: 0.4s;
+  margin-top: 9px;
 }
 
 .hamburger.is-active::before {
-  transform: rotate(-45deg) translate(-8px, 6px);
+  transform: rotate(-45deg) translate(-7px, 6px);
 }
 
 .hamburger.is-active .bar {
@@ -127,7 +128,7 @@ header {
 }
 
 .hamburger.is-active::after {
-  transform: rotate(45deg) translate(-9px, -8px);
+  transform: rotate(45deg) translate(-14px, -13px);
 }
 
 .mobile-nav {
