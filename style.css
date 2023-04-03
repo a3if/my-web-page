@@ -112,15 +112,15 @@ header {
 .hamburger::before {
   content: "";
   display: block;
-  width: 69px;
+  width: 45px;
   height: 5px;
   background-color: #000000;
   transition: 0.4s;
-  margin-top: 9px;
+  margin-top: 6px;
 }
 
 .hamburger.is-active::before {
-  transform: rotate(-45deg) translate(-7px, 6px);
+  transform: rotate(-45deg) translate(-5px, 8px);
 }
 
 .hamburger.is-active .bar {
@@ -128,7 +128,7 @@ header {
 }
 
 .hamburger.is-active::after {
-  transform: rotate(45deg) translate(-14px, -13px);
+  transform: rotate(45deg) translate(-7px, -11px);
 }
 
 .mobile-nav {
