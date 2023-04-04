@@ -139,7 +139,7 @@ header {
   min-height: 100vh;
   display: block;
   z-index: 98;
-  padding-top: 135px;
+  padding-top: 114px;
   transition: 0.4s;
 }
 
@@ -170,7 +170,7 @@ header {
 }
 
 .banner h2 {
-  max-width: 1137;
+  max-width: 1137px;
   font-family: "lora-regular";
   font-size: 56px;
   font-weight: 400;
@@ -231,12 +231,12 @@ header {
   font-style: normal;
   text-align: left;
   color: #444444;
-  margin-bottom: 39px;
+  margin-bottom: 36px;
 }
 
 .sign-up .left p {
   font-family: "Lora", serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   font-style: normal;
   text-align: left;
@@ -306,6 +306,7 @@ footer img {
   vertical-align: middle; /* add some spacing between the image and text */
 }
 
+
 @media (max-width: 1920px) {
   .nav-container {
     max-width: 1470px;
@@ -333,46 +334,6 @@ footer img {
     max-width: 554px;
   }
 
-  .banner h2 {
-    max-width: 1137;
-    font-family: "lora-regular";
-    font-size: 56px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    color: #ffffff;
-    margin-bottom: 46px;
-  }
-
-  .banner p {
-    max-width: 847px;
-    font-family: "opensans";
-    font-size: 22px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    color: #ffffff;
-    margin-bottom: 58px;
-  }
-
-  .sign-up .left h3 {
-    font-family: "Lora", serif;
-    font-size: 23px;
-    font-weight: 500;
-    font-style: normal;
-    text-align: left;
-    color: #444444;
-    margin-bottom: 39px;
-  }
-
-  .sign-up .left p {
-    font-family: "Lora", serif;
-    font-size: 17px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    color: #444444;
-  }
 
   .sign-up .right {
     max-width: 543px;
@@ -399,27 +360,14 @@ footer img {
   }
   .banner h2 {
     max-width: 860px;
-    font-family: "lora-regular";
-    font-size: 46px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    color: #ffffff;
-    margin-bottom: 46px;
+    font-size: 40px;
   }
   .banner p {
     max-width: 710px;
-    font-family: "opensans";
     font-size: 20px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    color: #ffffff;
-    margin-bottom: 58px;
   }
 
   .sign-up .left h3 {
-    font-family: "Lora", serif;
     font-size: 19px;
     font-weight: 500;
     font-style: normal;
@@ -429,15 +377,7 @@ footer img {
   }
 
   .sign-up .left p {
-    font-family: "Lora", serif;
     font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    color: #444444;
-  }
-  .sign-up .right {
-    max-width: 543px;
   }
 }
 
@@ -457,46 +397,18 @@ footer img {
   }
 
   .logo img {
-    width: 244px;
+    width: 100%;
   }
-  .banner h2 {
-    max-width: 860px;
-    font-family: "lora-regular";
-    font-size: 46px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    color: #ffffff;
-    margin-bottom: 46px;
-  }
-  .banner p {
-    max-width: 710px;
-    font-family: "opensans";
-    font-size: 20px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    color: #ffffff;
-    margin-bottom: 58px;
-  }
+ 
 
   .sign-up .left h3 {
-    font-family: "Lora", serif;
     font-size: 19px;
-    font-weight: 500;
-    font-style: normal;
-    text-align: left;
-    color: #444444;
-    margin-bottom: 39px;
+    margin-bottom: 30px;
   }
 
   .sign-up .left p {
-    font-family: "Lora", serif;
     font-size: 14px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    color: #444444;
+  
   }
   .sign-up .right {
     max-width: 543px;
@@ -533,26 +445,8 @@ footer img {
   .logo img {
     width: 244px;
   }
-  .banner h2 {
-    max-width: 700px;
-    font-family: "lora-regular";
-    font-size: 46px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    color: #ffffff;
-    margin-bottom: 46px;
-  }
-  .banner p {
-    max-width: 600px;
-    font-family: "opensans";
-    font-size: 20px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    color: #ffffff;
-    margin-bottom: 58px;
-  }
+
+ 
   .flex-container {
     display: flex;
     justify-content: space-between;
@@ -561,22 +455,13 @@ footer img {
   }
 
   .sign-up .left h3 {
-    font-family: "Lora", serif;
+ 
     font-size: 27px;
-    font-weight: 500;
-    font-style: normal;
-    text-align: left;
-    color: #444444;
     margin-bottom: 39px;
   }
 
   .sign-up .left p {
-    font-family: "Lora", serif;
     font-size: 17px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    color: #444444;
   }
   .sign-up .right {
     max-width: 543px;
@@ -622,15 +507,11 @@ footer img {
   }
 
   .hamburger {
-    display: block;
-    width: 70px;
-    height: 40px;
-    cursor: pointer;
-    appearance: none;
-    background: none;
-    outline: none;
-    border: none;
     margin-right: -129px;
+  }
+
+  footer{
+    padding-bottom: 364px;
   }
 
   .footer-item {
@@ -638,6 +519,7 @@ footer img {
     flex-direction: column;
     justify-content: center;
     margin-left: 10px;
+    
   }
 }
 
@@ -667,25 +549,10 @@ footer img {
   .logo img {
     width: 244px;
   }
-  .banner h2 {
-    max-width: 700px;
-    font-family: "lora-regular";
-    font-size: 46px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    color: #ffffff;
-    margin-bottom: 46px;
-  }
+  
   .banner p {
     max-width: 600px;
-    font-family: "opensans";
-    font-size: 20px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    color: #ffffff;
-    margin-bottom: 58px;
+    margin-bottom: 45px;
   }
   .flex-container {
     display: flex;
@@ -695,23 +562,15 @@ footer img {
   }
 
   .sign-up .left h3 {
-    font-family: "Lora", serif;
     font-size: 27px;
-    font-weight: 500;
-    font-style: normal;
-    text-align: left;
-    color: #444444;
     margin-bottom: 39px;
   }
 
+
   .sign-up .left p {
-    font-family: "Lora", serif;
     font-size: 17px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    color: #444444;
   }
+
   .sign-up .right {
     max-width: 543px;
   }
@@ -728,6 +587,11 @@ footer img {
     align-items: center;
     gap: 40px;
   }
+
+  footer{
+    padding-bottom: 300px;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -755,13 +619,6 @@ footer img {
 
   .hamburger {
     display: block;
-    width: 70px;
-    height: 40px;
-    cursor: pointer;
-    appearance: none;
-    background: none;
-    outline: none;
-    border: none;
     margin-right: -110px;
   }
 }
@@ -770,7 +627,6 @@ footer img {
   .nav-container {
     max-width: 430px;
     margin: 0 auto;
-    padding-inline: 100px;
   }
 
   .container {
@@ -790,15 +646,11 @@ footer img {
   }
 
   .hamburger {
-    display: block;
-    width: 70px;
-    height: 40px;
-    cursor: pointer;
-    appearance: none;
-    background: none;
-    outline: none;
-    border: none;
     margin-right: -110px;
+  }
+
+  footer{
+    padding-bottom: 250px;
   }
 }
 
@@ -815,6 +667,10 @@ footer img {
     padding-inline: 30px;
   }
 
+  .mobile-nav {
+    padding-top: 127px
+  }
+
   .desktop-nav {
     display: none;
   }
@@ -828,15 +684,9 @@ footer img {
 
   .hamburger {
     display: block;
-    width: 70px;
-    height: 40px;
-    cursor: pointer;
-    appearance: none;
-    background: none;
-    outline: none;
-    border: none;
     margin-right: -110px;
   }
+
 
   
 
@@ -846,15 +696,11 @@ footer img {
 
   .hamburger {
     display: block;
-    width: 70px;
-    height: 40px;
-    cursor: pointer;
-    appearance: none;
-    background: none;
-    outline: none;
-    border: none;
     margin-right: -63px;
   }
+
+  
+
 }
 
 @media (max-width: 380px) {
@@ -864,14 +710,15 @@ footer img {
 
   .hamburger {
     display: block;
-    width: 70px;
-    height: 40px;
-    cursor: pointer;
-    appearance: none;
-    background: none;
-    outline: none;
-    border: none;
     margin-right: -90px;
+  }
+
+  footer{
+    padding-bottom: 100px;
+  }
+
+  .mobile-nav {
+    padding-top: 127px
   }
 }
 
@@ -883,13 +730,10 @@ footer img {
 
   .hamburger {
     display: block;
-    width: 70px;
-    height: 40px;
-    cursor: pointer;
-    appearance: none;
-    background: none;
-    outline: none;
-    border: none;
     margin-right: -90px;
+  }
+
+  footer{
+    padding-bottom: 80px;
   }
 }
