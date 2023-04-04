@@ -79,10 +79,10 @@ header {
   right: -36px;
   transform: translateY(-50%);
   width: 1px;
-  height: 15px;
+  height: 8px;
   background-color: #221f1f;
   vertical-align: center;
-  padding-bottom: 80px;
+  padding-bottom: 10px;
 }
 
 .nav-container .header-item .contact {
